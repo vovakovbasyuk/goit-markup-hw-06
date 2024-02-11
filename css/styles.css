@@ -19,7 +19,7 @@ img {
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background: #fff;
 }
 
@@ -29,17 +29,17 @@ body {
 /* ====== header styles ====== */
 
 .logo-color {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .menu-link {
@@ -53,6 +53,10 @@ body {
 .menu-link:hover,
 .menu-link:focus {
     color: #404BBF;
+}
+
+.adress {
+    font-style: normal;
 }
 
 .adress-links {
@@ -82,7 +86,6 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
     font-weight: 700;
 }
@@ -121,15 +124,15 @@ body {
 /* ====== our team-Portfolio styles  ====== */
 
 .team-section {
-    background-color: #f4f4fd;
+    background-color: #FFFFFF;
 }
 
 .name-section {
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    text-align: center;
+
     color: #2e2f42;
     font-weight: 700;
 }
@@ -138,7 +141,6 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
     font-weight: 500;
 }
@@ -147,7 +149,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
 }
 
@@ -170,20 +171,20 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .logo-footer-color {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 /* ============ /footer-styles =========== */
