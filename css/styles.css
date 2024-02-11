@@ -55,10 +55,6 @@ body {
     color: #404BBF;
 }
 
-.adress {
-    font-style: normal;
-}
-
 .adress-links {
     font-size: 16px;
     line-height: 1.5;
@@ -76,7 +72,9 @@ body {
 
 /* ====== /header styles ====== */
 
-/* ====== our benefits styles  ====== */
+.title-benefits {
+    text-align: center
+}
 
 .hero {
     background: #2e2f42;
@@ -104,6 +102,7 @@ body {
     background-color: #404BBF;
 }
 
+/* ====== our benefits styles  ====== */
 .title {
     font-size: 20px;
     line-height: 1.2;
