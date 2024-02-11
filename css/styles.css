@@ -76,9 +76,6 @@ body {
 
 /* ====== /header styles ====== */
 
-.title-benefits {
-    text-align: center;
-}
 
 .hero {
     background: #2e2f42;
@@ -90,6 +87,7 @@ body {
     letter-spacing: 0.02em;
     color: #fff;
     font-weight: 700;
+    text-align: center;
 }
 
 .btn-hero {
