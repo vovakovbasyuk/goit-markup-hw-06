@@ -706,6 +706,10 @@ img {
 /* ============ modal-form-styles =========== */
 
 .review-form-fild-wraper {
+  margin-bottom: 8px;
+}
+
+.review-form-fild-wraper:nth-child(4) {
   margin-bottom: 16px;
 }
 
