@@ -230,7 +230,7 @@ img {
   align-items: center;
 }
 
-.hidden-title {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -560,8 +560,11 @@ img {
 }
 
 .footer-subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   padding: 8px 64px 8px 24px;
   border-radius: 4px;
@@ -585,6 +588,7 @@ img {
   position: absolute;
   top: 8px;
   right: 24px;
+  margin-left: 16px;
 }
 
 .footer-subscribe-text {
@@ -605,15 +609,16 @@ img {
   border: 1px solid #fff;
   border-radius: 4px;
   padding: 8px 16px;
-  background-color: #2e2f42;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .user-subscribe-input::placeholder {
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 /* ============ /footer-styles =========== */
@@ -652,7 +657,7 @@ img {
   transform: translate(-50%, -50%);
   border-radius: 4px;
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background: #fcfcfc;
@@ -698,7 +703,7 @@ img {
 
 /* ============ /modal-window-styles =========== */
 
-/* ============ review-form-styles =========== */
+/* ============ modal-form-styles =========== */
 
 .review-form-fild-wraper {
   margin-bottom: 8px;
@@ -718,13 +723,15 @@ img {
 .review-form-fild-label {
   display: block;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
 }
 
 .review-form-input {
+  background-color: transparent;
+  outline: transparent;
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -740,6 +747,7 @@ img {
 
 .review-form-input-wrapper {
   position: relative;
+  margin-bottom: 16px;
 }
 
 .review-form-filed-icon {
@@ -763,11 +771,17 @@ img {
   resize: none;
   padding: 8px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  outline: transparent;
 }
 
 .review-form-message::placeholder {
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
@@ -779,7 +793,7 @@ img {
 
 .review-form-checkbox-label {
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -803,7 +817,7 @@ img {
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 8px;
 }
 
@@ -812,7 +826,7 @@ img {
   .review-form-own-checkbox {
   background-color: #404bbf;
   fill: #f4f4fd;
-  border-color: #404bbf;
+  border: none;
 }
 
 .review-form-privacy-checkbox:focus
@@ -838,6 +852,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  font-weight: 500;
   text-align: center;
   color: #fff;
   border: transparent;
@@ -849,4 +864,4 @@ img {
   background-color: #404bbf;
 }
 
-/* ============ /review-form-styles =========== */
+/* ============ /modal-form-styles =========== */
