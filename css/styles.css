@@ -550,9 +550,13 @@ img {
   color: #f4f4fd;
 }
 
+/* footer-subscribe */
+
 .footer-subscribe-form {
+  display: flex;
   width: 453px;
   height: 80px;
+  gap: 24px;
 }
 
 .footer-subscribe-btn {
@@ -583,7 +587,7 @@ img {
   right: 24px;
 }
 
-.footer-subscribe-label {
+.footer-subscribe-text {
   display: block;
   margin-bottom: 16px;
   font-weight: 500;
