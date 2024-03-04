@@ -480,11 +480,6 @@ img {
 }
 
 .footer-list-container {
-  display: block;
-  width: 208px;
-  height: 80px;
-  justify-content: center;
-  align-items: center;
   margin-right: 80px;
 }
 
@@ -554,8 +549,6 @@ img {
 
 .footer-subscribe-form {
   display: flex;
-  width: 453px;
-  height: 80px;
   gap: 24px;
 }
 
@@ -751,7 +744,6 @@ img {
 
 .review-form-input-wrapper {
   position: relative;
-  margin-bottom: 16px;
 }
 
 .review-form-filed-icon {
