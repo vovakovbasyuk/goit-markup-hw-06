@@ -860,6 +860,8 @@ img {
 
   .footer-box {
     width: auto;
+    gap: 0;
+    row-gap: 0;
   }
 
   .logo-container {
@@ -868,6 +870,14 @@ img {
 
   .footer-list-container {
     margin-right: 80px;
+  }
+
+  .footer-subscribe-form {
+    gap: 0;
+  }
+
+  .footer-subscribe-label {
+    margin-right: 20px;
   }
 }
 
