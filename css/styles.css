@@ -269,6 +269,16 @@ img {
   background-color: #404bbf;
 }
 
+@media only screen and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg_hero_mbl@2x.jpg);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(
@@ -287,6 +297,16 @@ img {
     margin-bottom: 36px;
     max-width: 496px;
   }
+
+  @media only screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg_hero_tablet@2x.jpg);
+    }
+  }
 }
 
 @media only screen and (min-width: 1158px) {
@@ -304,6 +324,16 @@ img {
   .main-text {
     line-height: 1.5;
     margin-bottom: 48px;
+  }
+
+  @media only screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg_hero@2x.jpg);
+    }
   }
 }
 
@@ -607,6 +637,11 @@ img {
   color: #2e2f42;
   margin-bottom: 72px;
 }
+
+/* .our-portfolio-img {
+  width: 288px;
+  height: 280px;
+} */
 
 .title-name-portfolio {
   font-weight: 500;
